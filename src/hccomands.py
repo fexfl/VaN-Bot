@@ -27,8 +27,14 @@ async def fufu(ctx):
 
 
 @commands.command()
-async def buildjhin(ctx):
-    jhinbuild = 'Jhin 10.10 Core Build: \n Stormrazor \n Infinity Edge \n Rapid Firecannon \n ---------------------------------------- \n Boots: Swiftness \n Keystone: Fleet Footwork'
-    await ctx.send(Jhinbuild)
+async def build(ctx, arg):
+    if arg == Jhin || jhin:
+        jhinbuild = 'Jhin 10.10 Core Build: \n Stormrazor \n Infinity Edge \n Rapid Firecannon \n ---------------------------------------- \n Boots: Swiftness \n Keystone: Fleet Footwork'
+        await ctx.send(Jhinbuild)
+    if arg == Evelynn || evelynn:
+        evelynnbuild = "Evelynn 10.10 Core Build: \n Enchantment: Runic Echoes \n Mejai's Soulstealer \n Lich Bane \n ---------------------------------------- \n Sorcerer's Shoes \n Keystone: Electocute"
+    if arg == Irelia || irelia:
+        ireliabuild = "Irelia 10.10 Core Build: \n Blade of the Ruined King \n Trinity Force (or Black Cleaver for Sinners) \n Sterak's Gage \n ---------------------------------------- \n Mercury's Treads \n Keystone: Conqueror/Press the Attack"
+        
     
 commands = [penis, penis_l, fufu, buildjhin]
